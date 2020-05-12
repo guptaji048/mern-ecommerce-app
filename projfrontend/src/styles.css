@@ -1,0 +1,30 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+body {
+  background: #343a40;
+  min-height: 100vh;
+}
+
+footer {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  margin-right: 25px;
+}
