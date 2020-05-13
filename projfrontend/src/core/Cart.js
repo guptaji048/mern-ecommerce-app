@@ -39,8 +39,8 @@ export default function Cart() {
       <div className="row">
         {products.length > 0 ? (
           <Fragment>
-            <div className="col-6">{loadAllProducts(products)}</div>
-            <div className="col-6">
+            <div className="col-md-6">{loadAllProducts(products)}</div>
+            <div className="col-md-6">
               <StripePayment products={products} setReload={setreload} />
             </div>
           </Fragment>
